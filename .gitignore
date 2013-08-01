@@ -4,6 +4,7 @@
 
 #MLJ IGNORE
 web.*
+web.config
 
 *.pydevproject
 .project
