@@ -33,21 +33,20 @@
 
   <div class="leftspot">
     <ul>
-      <li>
-        <a href="#">Article 1</a>
-      </li>
-      <li>
-        <a href="#">Article 2</a>
-      </li>
-      <li>
-        <a href="#">Article 3</a>
-      </li>
-      <li>
-        <a href="#">Article 4</a>
-      </li>
-      <li>
-        <a href="#">Article 5</a>
-      </li>
+      <xsl:for-each select="./item" >
+        <li>
+          <sc:link>
+            <xsl:choose>
+              <xsl:when test="sc:fld('navigation title',.) = '' ">
+                <sc:text field="title" />
+              </xsl:when>
+              <xsl:otherwise>
+                <sc:text field="navigation title" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </sc:link>
+        </li>
+      </xsl:for-each>
     </ul>
   </div>
   

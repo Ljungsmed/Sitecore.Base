@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {35DA1B0B-2DB8-4388-AFC3-437C056F118E}
+database: master
+path: /sitecore/templates/User Defined/SitecoreBase/ContentTemplates/FrontPage/__Standard Values
+parent: {FCBEDD90-A57B-43D6-BDC8-67760A98D06D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {FCBEDD90-A57B-43D6-BDC8-67760A98D06D}
+templatekey: FrontPage
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{8126030E-8367-4248-A241-763E4AF89CA2}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 444
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{C43FD33B-90F2-4BBF-9410-F565CCB2F280}">
+    <r id="{F1D7D390-43AE-4A6A-A41E-B7321688E39F}" ph="banner" uid="{8801A197-4AEA-4366-B9D5-3D24750B4D63}" />
+    <r id="{ADD6C9A9-9140-4DDF-B270-F68FCFF012C3}" ph="Main Area" uid="{CA0BFE05-1740-4CA7-AB19-50CA937F9514}" />
+  </d>
+  <d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}" />
+  <d id="{73966209-F1B6-43CA-853A-F1DB1C9A654B}" />
+</r>
+----version----
+language: en
+version: 1
+revision: 234ed0bb-8209-40e4-be39-05aba2b1e6cf
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130429T155300
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+234ed0bb-8209-40e4-be39-05aba2b1e6cf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130501T164816:635030236960441459
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

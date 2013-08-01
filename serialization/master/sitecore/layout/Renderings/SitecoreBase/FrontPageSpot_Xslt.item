@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {62621833-F829-4EC0-8B46-D6EDF681BE65}
+database: master
+path: /sitecore/layout/Renderings/SitecoreBase/FrontPageSpot_Xslt
+parent: {3DF69438-46C8-4AF1-B89C-B51468FBDD09}
+name: FrontPageSpot_Xslt
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1F1D639-4F54-40C2-8BE0-81266B392CEB}
+templatekey: Xsl Rendering
+
+----field----
+field: {78783F79-1411-4B91-958D-AD81F81E2485}
+name: Path
+key: path
+content-length: 41
+
+/xsl/SitecoreBase/FrontPageSpot_Xslt.xslt
+----version----
+language: en
+version: 1
+revision: 59f8d1ae-32b5-4948-8d56-86f0d86f2d0b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130731T134215
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+59f8d1ae-32b5-4948-8d56-86f0d86f2d0b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130731T134216:635108749360291529
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

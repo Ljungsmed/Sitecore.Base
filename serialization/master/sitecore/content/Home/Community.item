@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {B8CEEC53-16ED-431A-890A-F0E3785EA59D}
+database: master
+path: /sitecore/content/Home/Community
+parent: {AB5209C1-13F0-498A-9EC5-1EEBAAB87E59}
+name: Community
+master: {00000000-0000-0000-0000-000000000000}
+template: {8126030E-8367-4248-A241-763E4AF89CA2}
+templatekey: MainSection
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+150
+----version----
+language: en
+version: 1
+revision: f1b62285-37ca-4efb-bc9f-277cbf1511b6
+
+----field----
+field: {AB666E45-463D-4142-92B0-29A52E5A0481}
+name: Title
+key: title
+content-length: 9
+
+Community
+----field----
+field: {47512ED5-1804-4709-BC4D-4594A6E7C44B}
+name: Browser Title
+key: browser title
+content-length: 9
+
+Community
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130801T132912
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f1b62285-37ca-4efb-bc9f-277cbf1511b6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130801T132959:635109605998021709
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -36,20 +36,26 @@
       <li>
         <sc:link select="$home">
           <xsl:choose>
-            <xsl:when test="sc:fld('navigation title',.) = '' ">
+            <xsl:when test="sc:fld('navigation title',$home) = '' ">
               <sc:text field="title" select="$home"/>
             </xsl:when>
             <xsl:otherwise>
               <sc:text field="navigation title" select="$home"/>
             </xsl:otherwise>
-          </xsl:choose>
-          
+          </xsl:choose>          
         </sc:link>
       </li>
       <xsl:for-each select="$home/item[@template='mainsection']">
         <li>
           <sc:link>
-            <sc:text field="title" />
+            <xsl:choose>
+              <xsl:when test="sc:fld('navigation title',.) = '' ">
+                <sc:text field="title" />
+              </xsl:when>
+              <xsl:otherwise>
+                <sc:text field="navigation title" />
+              </xsl:otherwise>
+            </xsl:choose>
           </sc:link>
         </li>
       </xsl:for-each>

@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {B9D2CC68-BC8B-4CCC-A67C-0AE2FD6FFC23}
+database: master
+path: /sitecore/content/Home/Articles
+parent: {AB5209C1-13F0-498A-9EC5-1EEBAAB87E59}
+name: Articles
+master: {00000000-0000-0000-0000-000000000000}
+template: {8126030E-8367-4248-A241-763E4AF89CA2}
+templatekey: MainSection
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{806B5081-D3BB-497B-A83C-9E48E7EFFDB0}
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: a0961c92-8419-401a-8104-45803c43d3e9
+
+----field----
+field: {7FA45B81-CCAA-4F10-9404-450BC513D06E}
+name: Banner Image
+key: banner image
+content-length: 161
+
+<image mediaid="{69BA37CD-80E1-4F07-A7AC-86BFD33F4BAD}" mediapath="/Images/SitecoreBase/Banners/BWBanner5" src="~/media/69BA37CD80E14F07A7AC86BFD33F4BAD.ashx" />
+----field----
+field: {AB666E45-463D-4142-92B0-29A52E5A0481}
+name: Title
+key: title
+content-length: 8
+
+Articles
+----field----
+field: {8EF124F1-A209-4CB2-BEF3-499976214899}
+name: Text
+key: text
+content-length: 41
+
+Find all articles in the below categories
+----field----
+field: {47512ED5-1804-4709-BC4D-4594A6E7C44B}
+name: Browser Title
+key: browser title
+content-length: 8
+
+Articles
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130429T162100
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a0961c92-8419-401a-8104-45803c43d3e9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130621T144312:635074225927092894
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

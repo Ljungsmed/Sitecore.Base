@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {2BAB3738-539D-4817-BC1B-41C0F2CF89EA}
+database: master
+path: /sitecore/layout/Renderings/SitecoreBase/Spot_Xslt
+parent: {3DF69438-46C8-4AF1-B89C-B51468FBDD09}
+name: Spot_Xslt
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1F1D639-4F54-40C2-8BE0-81266B392CEB}
+templatekey: Xsl Rendering
+
+----field----
+field: {78783F79-1411-4B91-958D-AD81F81E2485}
+name: Path
+key: path
+content-length: 32
+
+/xsl/SitecoreBase/Spot_Xslt.xslt
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 42
+
+/sitecore/content/Home/StandardItems/Spots
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 67
+
+/sitecore/templates/User Defined/SitecoreBase/ContentTemplates/Spot
+----version----
+language: en
+version: 1
+revision: a7ffb033-1b77-4fe2-be78-01e1470210f0
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130521T142200
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a7ffb033-1b77-4fe2-be78-01e1470210f0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130521T143653:635047438137493721
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

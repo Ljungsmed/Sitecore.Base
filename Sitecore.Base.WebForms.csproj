@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />
+    <Folder Include="serialization\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -163,8 +164,9 @@
   <PropertyGroup>
     <PostBuildEvent>xcopy "$(ProjectDir)\bin\*.dll" "C:\inetpub\wwwroot\SitecoreBase\Website\bin" /Y /D
 xcopy "$(ProjectDir)\layouts" "C:\inetpub\wwwroot\SitecoreBase\Website\layouts" /Y /I /S /D
+xcopy "$(ProjectDir)\xsl" "C:\inetpub\wwwroot\SitecoreBase\Website\xsl" /Y /I /S /D
 xcopy "$(ProjectDir)\css" "C:\inetpub\wwwroot\SitecoreBase\Website\css" /Y /I /S /D
-xcopy "$(ProjectDir)\xsl" "C:\inetpub\wwwroot\SitecoreBase\Website\xsl" /Y /I /S</PostBuildEvent>
+xcopy "C:\inetpub\wwwroot\SitecoreBase\Data\serialization" "$(ProjectDir)\serialization" /Y /I /S /D</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

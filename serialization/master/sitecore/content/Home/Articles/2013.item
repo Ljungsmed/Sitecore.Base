@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {1FDAB3FA-710F-459E-87F6-2FF09896BCBA}
+database: master
+path: /sitecore/content/Home/Articles/2013
+parent: {B9D2CC68-BC8B-4CCC-A67C-0AE2FD6FFC23}
+name: 2013
+master: {00000000-0000-0000-0000-000000000000}
+template: {806B5081-D3BB-497B-A83C-9E48E7EFFDB0}
+templatekey: Article Folder
+
+----version----
+language: en
+version: 1
+revision: 46fb3a61-ac1a-49ab-83bb-d897d656dd22
+
+----field----
+field: {7885F060-04A3-422D-BE5D-A2C39AC665B5}
+name: Overview Image
+key: overview image
+content-length: 170
+
+<image mediaid="{B91B02A8-4302-46CB-A45D-C9DA88628FF5}" mediapath="/Images/SitecoreBase/Overview Images/Calendar_0" src="~/media/B91B02A8430246CBA45DC9DA88628FF5.ashx" />
+----field----
+field: {BD8B1241-07F0-44BB-9B46-040BCD79856C}
+name: Overview Text
+key: overview text
+content-length: 27
+
+View all articles from 2013
+----field----
+field: {AB666E45-463D-4142-92B0-29A52E5A0481}
+name: Title
+key: title
+content-length: 4
+
+2013
+----field----
+field: {8EF124F1-A209-4CB2-BEF3-499976214899}
+name: Text
+key: text
+content-length: 13
+
+<p>&nbsp;</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130521T154300
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+46fb3a61-ac1a-49ab-83bb-d897d656dd22
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130621T154038:635074260387952430
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

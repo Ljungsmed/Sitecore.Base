@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {AB5209C1-13F0-498A-9EC5-1EEBAAB87E59}
+database: master
+path: /sitecore/content/Home
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: Home
+master: {00000000-0000-0000-0000-000000000000}
+template: {FCBEDD90-A57B-43D6-BDC8-67760A98D06D}
+templatekey: FrontPage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 937
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4A2F6E67-66C6-4D34-A0E0-5743E45EA19E}" p:before="r[@uid='{6AF02ECE-074F-4288-82F2-EF9A972024BC}']" s:ds="/sitecore/content/Home/StandardItems/Front Page Spots/frontpage1" s:id="{62621833-F829-4EC0-8B46-D6EDF681BE65}" s:par="" s:ph="spot1" /><r uid="{6AF02ECE-074F-4288-82F2-EF9A972024BC}" p:before="r[@uid='{F58417E2-B06C-4CAB-8251-B38F1D33DDED}']" s:ds="/sitecore/content/Home/StandardItems/Front Page Spots/frontpage1" s:id="{62621833-F829-4EC0-8B46-D6EDF681BE65}" s:par="" s:ph="spot2" /><r uid="{F58417E2-B06C-4CAB-8251-B38F1D33DDED}" s:ds="/sitecore/content/Home/StandardItems/Front Page Spots/frontpage1" s:id="{62621833-F829-4EC0-8B46-D6EDF681BE65}" s:par="" s:ph="spot3" /></d><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}"><p:d /></d><d id="{73966209-F1B6-43CA-853A-F1DB1C9A654B}"><p:d /></d></r>
+----version----
+language: en
+version: 1
+revision: b2d8743c-4fcb-4619-9417-247b8518a7fc
+
+----field----
+field: {7FA45B81-CCAA-4F10-9404-450BC513D06E}
+name: Banner Image
+key: banner image
+content-length: 162
+
+<image mediaid="{6876F02C-FF6E-4D90-BEC3-8856C6C143D9}" mediapath="/Images/SitecoreBase/Banners/MainBanner" src="~/media/6876F02CFF6E4D90BEC38856C6C143D9.ashx" />
+----field----
+field: {E6FE189F-4C14-4941-903F-0DD1C4BA827B}
+name: Logo
+key: logo
+content-length: 154
+
+<image mediaid="{B4937568-4C5D-443D-85A0-997879E5ABAD}" mediapath="/Images/SitecoreBase/Logos/logo" src="~/media/B49375684C5D443D85A0997879E5ABAD.ashx" />
+----field----
+field: {84F2E41C-AFF2-4F48-A48A-9D98D3AF6600}
+name: Navigation Title
+key: navigation title
+content-length: 4
+
+Home
+----field----
+field: {AB666E45-463D-4142-92B0-29A52E5A0481}
+name: Title
+key: title
+content-length: 20
+
+Welcome to ScubaCore
+----field----
+field: {8EF124F1-A209-4CB2-BEF3-499976214899}
+name: Text
+key: text
+content-length: 173
+
+<p>Are you a diving enthusiast? Then this is the place for you! you can find other divers stories, buy equipment, share your own diving stories and images and much more.</p>
+----field----
+field: {47512ED5-1804-4709-BC4D-4594A6E7C44B}
+name: Browser Title
+key: browser title
+content-length: 4
+
+Home
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130429T162000
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b2d8743c-4fcb-4619-9417-247b8518a7fc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130731T163637:635108853973296244
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
