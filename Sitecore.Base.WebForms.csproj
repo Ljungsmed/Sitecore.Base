@@ -39,8 +39,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Sitecore.Kernel">
-      <HintPath>..\..\..\..\..\..\inetpub\wwwroot\SitecoreBase\Website\bin\Sitecore.Kernel.dll</HintPath>
+    <Reference Include="Sitecore.Kernel, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>AssemblyReferences\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
@@ -61,6 +62,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AssemblyReferences\Sitecore.Kernel.dll" />
     <Content Include="css\SitecoreBase\normal.css" />
     <Content Include="layouts\SitecoreBaseWebForms\Layouts\SitecoreBaseMainLayoutWebForms.aspx">
       <SubType>ASPXCodeBehind</SubType>
