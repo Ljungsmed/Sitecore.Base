@@ -2,6 +2,9 @@
 ## Eclipse
 #################
 
+#MLJ IGNORE
+web.*
+
 *.pydevproject
 .project
 .metadata
