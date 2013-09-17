@@ -33,7 +33,7 @@
 
   <div>
     <div>
-      <sc:image field="spot image" w="180" h="135" />
+      <sc:image field="spot image" w="180" h="135" thn="true" bc="transparent" />
     </div>
     <h2>
       <sc:text field="spot heading" />
